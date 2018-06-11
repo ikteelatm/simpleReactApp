@@ -11,8 +11,6 @@ class MyForm extends Component {
     }
 
   render() {
-   //const {handleSubmit, pristine, reset, user} = props
-   //const {handleSubmit} = this.props;
     return (                      
             <form onSubmit={this.handleSubmit}> 
               <ul className="myForm">

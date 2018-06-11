@@ -4,11 +4,6 @@ import data from './ReactTask.json';
 import Modal from './Modal.js';
 import MyForm from './MyForm';
 
-//import { submit } from 'redux-form';
-//import { connect } from 'react-redux';
-
-//import SimpleForm from './SimpleForm';
-
 class MyUser extends Component {
   constructor(props) {
     super(props);
@@ -49,8 +44,3 @@ class MyUser extends Component {
   }
 }
 export default MyUser;
-
-// const MyUser = ({ dispatch }) =>
-//   <button type="button" onClick={() => dispatch(submit('remoteSubmit'))}>Submit</button>
-
-// export default connect()(MyUser)

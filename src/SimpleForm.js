@@ -4,7 +4,6 @@ import {Field, reduxForm} from 'redux-form'
 import { connect } from 'react-redux';
 
 class SimpleForm extends Component {
-  //const {handleSubmit, pristine, reset, submitting} = props;
   render() {
   return (
     <form>

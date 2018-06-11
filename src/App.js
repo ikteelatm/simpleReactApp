@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './amdocs-logo.png';
+import logo from './logo.svg';
 import './App.css';
 import MyUser from './MyUser.js'
 
@@ -11,13 +11,9 @@ class App extends Component {
       <div key="App" className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Amdocs Task, which describing the users defined at task</h1>
+          <h1 className="App-title">Basic CRM React App</h1>
         </header>
-        <p className="App-intro">
-          Users
-        </p>
-        <MyUser />
-          
+        <MyUser/>
       </div>
     );
   }
